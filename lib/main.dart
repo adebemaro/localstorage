@@ -50,9 +50,9 @@ class _CheckAuthState extends State<CheckAuth> {
   @override
   Widget build(BuildContext context) {
     if (isAuth) {
-      return DashboardPage();
+      return const DashboardPage();
     } else {
-      return HomescreenPage();
+      return const HomescreenPage();
     }
 
     //return Container();
